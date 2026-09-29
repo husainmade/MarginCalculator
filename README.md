@@ -119,13 +119,32 @@ Margin Calculator does not require an account or sign-in.
 
 ## 📱 Screenshots
 
-Main<br>Calculator | Margin &<br>Markup
---- | ---
-![Main Calculator](screenshots/main.png) | ![Margin & Markup](screenshots/margin-markup.png)
-
-Discount &<br>GST | Price<br>Breakdown
---- | ---
-![Discount & GST](screenshots/discount-gst.png) | ![Price Breakdown](screenshots/price-breakdown.png)
+<table width="100%">
+  <tr>
+    <th width="50%">Main<br>Calculator</th>
+    <th width="50%">Margin &<br>Markup</th>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <img src="screenshots/main.png" width="100%">
+    </td>
+    <td width="50%" align="center">
+      <img src="screenshots/margin-markup.png" width="100%">
+    </td>
+  </tr>
+  <tr>
+    <th width="50%">Discount &<br>GST</th>
+    <th width="50%">Price<br>Breakdown</th>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <img src="screenshots/discount-gst.png" width="100%">
+    </td>
+    <td width="50%" align="center">
+      <img src="screenshots/price-breakdown.png" width="100%">
+    </td>
+  </tr>
+</table>
 
 ## 📥 Download
 
