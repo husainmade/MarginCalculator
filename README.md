@@ -117,17 +117,15 @@ Margin Calculator does not require an account or sign-in.
 - No cloud service is required for the calculator.
 - No personal information is required to use the app.
 
-## 📸 Screenshots
+## 📱 Screenshots
 
-<p align="center">
-  <img src="screenshots/main.png" width="240">
-  <img src="screenshots/margin-markup.png" width="240">
-</p>
+Main Calculator | Margin & Markup
+--- | ---
+![Main Calculator](screenshots/main.png) | ![Margin & Markup](screenshots/margin-markup.png)
 
-<p align="center">
-  <img src="screenshots/discount-gst.png" width="240">
-  <img src="screenshots/price-breakdown.png" width="240">
-</p>
+Discount & GST | Price Breakdown
+--- | ---
+![Discount & GST](screenshots/discount-gst.png) | ![Price Breakdown](screenshots/price-breakdown.png)
 
 ## 📥 Download
 
@@ -160,6 +158,4 @@ For bug reports, please include:
 
 **Husain**
 
----
-
-© 2026 Husain
+© 2026
