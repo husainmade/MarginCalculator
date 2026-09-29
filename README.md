@@ -119,11 +119,11 @@ Margin Calculator does not require an account or sign-in.
 
 ## 📱 Screenshots
 
-Main Calculator | Margin & Markup
+Main<br>Calculator | Margin &<br>Markup
 --- | ---
 ![Main Calculator](screenshots/main.png) | ![Margin & Markup](screenshots/margin-markup.png)
 
-Discount & GST | Price Breakdown
+Discount &<br>GST | Price<br>Breakdown
 --- | ---
 ![Discount & GST](screenshots/discount-gst.png) | ![Price Breakdown](screenshots/price-breakdown.png)
 
