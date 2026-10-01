@@ -1,8 +1,8 @@
 # Margin Calculator
 
-A simple and practical Android app to calculate **Profit, Margin, Markup, Selling Price, GST and Discount**.
+A simple and practical Android app to calculate **Profit, Margin, Markup, Sale Price, GST and Discount**.
 
-Whether you're setting a selling price for a product or checking how much profit you're making, Margin Calculator gives you the numbers instantly.
+Whether you're setting a sale price for a product or checking how much profit you're making, Margin Calculator gives you the numbers instantly.
 
 ## ✨ Features
 
@@ -11,23 +11,25 @@ Whether you're setting a selling price for a product or checking how much profit
 Calculate:
 
 - Cost Price
-- Selling Price
+- Sale Price
 - Profit
 - Margin %
 - Markup %
 
 Enter any **two values** and the app automatically calculates the remaining values.
 
-You can also directly edit Margin or Markup to determine the required Selling Price.
+You can also directly edit Margin or Markup to determine the required Sale Price.
 
 ### 🧮 Live Calculations
 
 All calculations update instantly as you change the values.
 
+Discount and GST adjustments are also reflected in the calculated Margin and Markup.
+
 For example:
 
 **Cost Price:** ₹200  
-**Selling Price:** ₹250
+**Sale Price:** ₹250
 
 The app calculates:
 
@@ -35,48 +37,72 @@ The app calculates:
 - Margin: 20%
 - Markup: 25%
 
-### 🧾 GST Support
+### 🏷️ Discount Calculations
 
-Calculate prices with or without GST.
+Apply a discount to the Sale Price and instantly see its effect on:
 
-Supports:
-
-- GST-exclusive selling price
-- GST-inclusive customer price
-- GST amount
-- Selling price before GST
-- Profit after GST
-
-When GST is included in the customer's final price, the app separates the GST portion before calculating your actual business selling price and profit.
-
-### 🏷️ Discount Support
-
-Apply a discount to the selling price and instantly see its effect on:
-
-- Final Selling Price
+- Sale Price after discount
 - Profit
 - Margin
 - Markup
+
+Discount is applied before GST in the calculation.
+
+### 🧾 GST Calculations
+
+Calculate prices with or without GST.
+
+The calculator handles:
+
+- GST-exclusive Sale Price
+- GST-inclusive Sale Price
+- GST amount
+- Sale Price before GST
+- Profit after GST
+
+When GST is included in the customer's final price, the app separates the GST portion before calculating the effective business selling value and profit.
 
 ### 📊 Price Breakdown
 
 Expand the Price Breakdown section to see the calculation in detail, including:
 
-- Cost Price
-- Selling Price
+- Sale Price
 - Discount
+- Sale Price after discount
 - GST
+- Net selling value
+- Customer pays
 - Profit
 - Margin
 - Markup
+
+### 📚 Calculation History
+
+Save calculations for later reference with an optional title.
+
+Calculation History allows you to:
+
+- View saved calculations
+- View complete calculation details
+- Delete individual calculations
+- Select and delete multiple calculations
+- Delete all calculations with confirmation
+- Keep up to 50 saved calculations
+
+Saved calculations are for reference and do not restore values to the calculator.
 
 ### 💡 Margin & Markup Explained
 
 Not sure about the difference between Margin and Markup?
 
-The built-in explanation shows how both are calculated with a simple example.
+The built-in **Markup & Margin Guide** explains:
 
-The example also adapts to your current calculation.
+- How Margin and Markup are calculated
+- The difference between them
+- The relationship between Margin and Markup
+- Why Markup can exceed 100%
+- Why Margin cannot reach 100% with a positive Sale Price
+- Examples and formulas
 
 ### 🎨 Material You Design
 
@@ -126,29 +152,43 @@ Margin Calculator does not require an account or sign-in.
   </tr>
   <tr>
     <td width="50%" align="center">
-      <img src="screenshots/main.png" width="100%">
+      <img src="screenshots/main.jpg" width="100%">
     </td>
     <td width="50%" align="center">
-      <img src="screenshots/margin-markup.png" width="100%">
+      <img src="screenshots/margin-markup.jpg" width="100%">
     </td>
   </tr>
+
   <tr>
-    <th width="50%">Discount &<br>GST</th>
-    <th width="50%">Price<br>Breakdown</th>
+    <th width="50%">Discount, GST &<br>Price Breakdown</th>
+    <th width="50%">Save<br>Calculation</th>
   </tr>
   <tr>
     <td width="50%" align="center">
-      <img src="screenshots/discount-gst.png" width="100%">
+      <img src="screenshots/discount-gst-breakdown.jpg" width="100%">
     </td>
     <td width="50%" align="center">
-      <img src="screenshots/price-breakdown.png" width="100%">
+      <img src="screenshots/save-calculation.jpg" width="100%">
+    </td>
+  </tr>
+
+  <tr>
+    <th width="50%">Calculation<br>History</th>
+    <th width="50%">Markup & Margin<br>Guide</th>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <img src="screenshots/calculation-history.jpg" width="100%">
+    </td>
+    <td width="50%" align="center">
+      <img src="screenshots/guide.jpg" width="100%">
     </td>
   </tr>
 </table>
 
 ## 📥 Download
 
-Download the latest version from the **[Releases](../../releases)** section.
+**[Download Latest Version](https://github.com/husainmade/MarginCalculator/releases#latest)**
 
 ### Requirements
 
