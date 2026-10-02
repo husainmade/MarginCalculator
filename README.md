@@ -1,14 +1,14 @@
 # Margin Calculator
 
-A simple and practical Android app to calculate **Profit, Margin, Markup, Sale Price, GST and Discount**.
+A simple and practical Android app for **product pricing and profitability analysis**. Calculate **Profit, Margin, Markup and Sale Price**, with **Discount and GST adjustments**.
 
-Whether you're setting a sale price for a product or checking how much profit you're making, Margin Calculator gives you the numbers instantly.
+Whether you're setting a sale price for a product, checking your profitability, or adjusting your price for discounts and GST, Margin Calculator gives you the numbers instantly.
 
 ## ✨ Features
 
 ### 💰 Margin & Markup Calculator
 
-Calculate:
+Calculate and understand:
 
 - Cost Price
 - Sale Price
@@ -37,20 +37,26 @@ The app calculates:
 - Margin: 20%
 - Markup: 25%
 
-### 🏷️ Discount Calculations
+### 🏷️ Discount Adjustment
 
-Apply a discount to the Sale Price and instantly see its effect on:
+Apply a discount to the Sale Price and instantly see how it affects:
 
 - Sale Price after discount
+- Effective selling value
 - Profit
 - Margin
 - Markup
 
 Discount is applied before GST in the calculation.
 
-### 🧾 GST Calculations
+### 🧾 GST Adjustment
 
-Calculate prices with or without GST.
+Specify whether the Sale Price includes GST and see how the GST treatment affects:
+
+- Effective selling value
+- Profit
+- Margin
+- Markup
 
 The calculator handles:
 
@@ -120,9 +126,9 @@ The interface adapts to your device's appearance settings.
 
 ### 📱 Simple & Focused
 
-Margin Calculator is designed to do one thing well:
+Margin Calculator is designed to help you quickly **calculate and understand product pricing and profitability**.
 
-**Help you quickly calculate and understand your product pricing.**
+It focuses on the calculations that matter when setting or evaluating a product's Sale Price, including **Margin, Markup, Discount and GST adjustments**.
 
 No unnecessary accounts, complicated setup or cloud services.
 
